@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C4271128EA9A0900CBF551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4271028EA9A0900CBF551 /* AppDelegate.swift */; };
+		52C4271328EA9A0900CBF551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4271228EA9A0900CBF551 /* SceneDelegate.swift */; };
+		52C4271A28EA9A0900CBF551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C4271928EA9A0900CBF551 /* Assets.xcassets */; };
+		52C4271D28EA9A0900CBF551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C4271B28EA9A0900CBF551 /* LaunchScreen.storyboard */; };
+		52C4272628EA9BE200CBF551 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4272428EA9BE200CBF551 /* HomeViewController.swift */; };
+		52C4272728EA9BE200CBF551 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C4272528EA9BE200CBF551 /* HomeViewController.xib */; };
+		52C4272A28EA9BF900CBF551 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4272828EA9BF900CBF551 /* HomeViewCell.swift */; };
+		52C4272B28EA9BF900CBF551 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C4272928EA9BF900CBF551 /* HomeViewCell.xib */; };
+		52C4272D28EA9C0A00CBF551 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4272C28EA9C0A00CBF551 /* Strings.swift */; };
+		52C4272F28EA9C4900CBF551 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C4272E28EA9C4900CBF551 /* GoogleService-Info.plist */; };
+		52C4273128EA9C6B00CBF551 /* FirestoreDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4273028EA9C6B00CBF551 /* FirestoreDB.swift */; };
+		52C4273328EA9C8100CBF551 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4273228EA9C8100CBF551 /* UserViewModel.swift */; };
+		8462DC729E67D1A70B9AFEF4 /* Pods_Realtime_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE924886486D480785F45E8 /* Pods_Realtime_Counter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE924886486D480785F45E8 /* Pods_Realtime_Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realtime_Counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C80CFE2834CF46F1D236316 /* Pods-Realtime Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realtime Counter.debug.xcconfig"; path = "Target Support Files/Pods-Realtime Counter/Pods-Realtime Counter.debug.xcconfig"; sourceTree = "<group>"; };
+		52C4270D28EA9A0900CBF551 /* Realtime Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realtime Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C4271028EA9A0900CBF551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52C4271228EA9A0900CBF551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52C4271928EA9A0900CBF551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52C4271C28EA9A0900CBF551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52C4271E28EA9A0900CBF551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C4272428EA9BE200CBF551 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		52C4272528EA9BE200CBF551 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		52C4272828EA9BF900CBF551 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		52C4272928EA9BF900CBF551 /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		52C4272C28EA9C0A00CBF551 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		52C4272E28EA9C4900CBF551 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../iCloud Drive (Archive)/Desktop/realtimecounter/RealtimeCounter/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52C4273028EA9C6B00CBF551 /* FirestoreDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDB.swift; sourceTree = "<group>"; };
+		52C4273228EA9C8100CBF551 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		5626CE892F8CDF90D928766F /* Pods-Realtime Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realtime Counter.release.xcconfig"; path = "Target Support Files/Pods-Realtime Counter/Pods-Realtime Counter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C4270A28EA9A0900CBF551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462DC729E67D1A70B9AFEF4 /* Pods_Realtime_Counter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213C3F8EDC7C32609762BA9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C80CFE2834CF46F1D236316 /* Pods-Realtime Counter.debug.xcconfig */,
+				5626CE892F8CDF90D928766F /* Pods-Realtime Counter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29404D3F798F61FE93D85F69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE924886486D480785F45E8 /* Pods_Realtime_Counter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C4270428EA9A0900CBF551 = {
+			isa = PBXGroup;
+			children = (
+				52C4270F28EA9A0900CBF551 /* Realtime Counter */,
+				52C4270E28EA9A0900CBF551 /* Products */,
+				213C3F8EDC7C32609762BA9E /* Pods */,
+				29404D3F798F61FE93D85F69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52C4270E28EA9A0900CBF551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C4270D28EA9A0900CBF551 /* Realtime Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C4270F28EA9A0900CBF551 /* Realtime Counter */ = {
+			isa = PBXGroup;
+			children = (
+				52C4272E28EA9C4900CBF551 /* GoogleService-Info.plist */,
+				52C4271028EA9A0900CBF551 /* AppDelegate.swift */,
+				52C4271228EA9A0900CBF551 /* SceneDelegate.swift */,
+				52C4271928EA9A0900CBF551 /* Assets.xcassets */,
+				52C4271B28EA9A0900CBF551 /* LaunchScreen.storyboard */,
+				52C4271E28EA9A0900CBF551 /* Info.plist */,
+				52C4272428EA9BE200CBF551 /* HomeViewController.swift */,
+				52C4272528EA9BE200CBF551 /* HomeViewController.xib */,
+				52C4272828EA9BF900CBF551 /* HomeViewCell.swift */,
+				52C4272928EA9BF900CBF551 /* HomeViewCell.xib */,
+				52C4272C28EA9C0A00CBF551 /* Strings.swift */,
+				52C4273028EA9C6B00CBF551 /* FirestoreDB.swift */,
+				52C4273228EA9C8100CBF551 /* UserViewModel.swift */,
+			);
+			path = "Realtime Counter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C4270C28EA9A0900CBF551 /* Realtime Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C4272128EA9A0900CBF551 /* Build configuration list for PBXNativeTarget "Realtime Counter" */;
+			buildPhases = (
+				4A0D6325590921986280DA91 /* [CP] Check Pods Manifest.lock */,
+				52C4270928EA9A0900CBF551 /* Sources */,
+				52C4270A28EA9A0900CBF551 /* Frameworks */,
+				52C4270B28EA9A0900CBF551 /* Resources */,
+				71CF8F729506EFC116AEA44C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Realtime Counter";
+			productName = "Realtime Counter";
+			productReference = 52C4270D28EA9A0900CBF551 /* Realtime Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C4270528EA9A0900CBF551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					52C4270C28EA9A0900CBF551 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 52C4270828EA9A0900CBF551 /* Build configuration list for PBXProject "Realtime Counter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C4270428EA9A0900CBF551;
+			productRefGroup = 52C4270E28EA9A0900CBF551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C4270C28EA9A0900CBF551 /* Realtime Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C4270B28EA9A0900CBF551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C4271D28EA9A0900CBF551 /* LaunchScreen.storyboard in Resources */,
+				52C4272B28EA9BF900CBF551 /* HomeViewCell.xib in Resources */,
+				52C4272F28EA9C4900CBF551 /* GoogleService-Info.plist in Resources */,
+				52C4271A28EA9A0900CBF551 /* Assets.xcassets in Resources */,
+				52C4272728EA9BE200CBF551 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A0D6325590921986280DA91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Realtime Counter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71CF8F729506EFC116AEA44C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Realtime Counter/Pods-Realtime Counter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Realtime Counter/Pods-Realtime Counter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Realtime Counter/Pods-Realtime Counter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C4270928EA9A0900CBF551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C4271128EA9A0900CBF551 /* AppDelegate.swift in Sources */,
+				52C4272A28EA9BF900CBF551 /* HomeViewCell.swift in Sources */,
+				52C4272D28EA9C0A00CBF551 /* Strings.swift in Sources */,
+				52C4273128EA9C6B00CBF551 /* FirestoreDB.swift in Sources */,
+				52C4271328EA9A0900CBF551 /* SceneDelegate.swift in Sources */,
+				52C4273328EA9C8100CBF551 /* UserViewModel.swift in Sources */,
+				52C4272628EA9BE200CBF551 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52C4271B28EA9A0900CBF551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C4271C28EA9A0900CBF551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C4271F28EA9A0900CBF551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52C4272028EA9A0900CBF551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C4272228EA9A0900CBF551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C80CFE2834CF46F1D236316 /* Pods-Realtime Counter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Realtime Counter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.das.surajeet.realtime.Realtime-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C4272328EA9A0900CBF551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5626CE892F8CDF90D928766F /* Pods-Realtime Counter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Realtime Counter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.das.surajeet.realtime.Realtime-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C4270828EA9A0900CBF551 /* Build configuration list for PBXProject "Realtime Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C4271F28EA9A0900CBF551 /* Debug */,
+				52C4272028EA9A0900CBF551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C4272128EA9A0900CBF551 /* Build configuration list for PBXNativeTarget "Realtime Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C4272228EA9A0900CBF551 /* Debug */,
+				52C4272328EA9A0900CBF551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52C4270528EA9A0900CBF551 /* Project object */;
+}

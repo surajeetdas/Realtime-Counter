@@ -1,0 +1,6 @@
+framework module Pods_Realtime_Counter {
+  umbrella header "Pods-Realtime Counter-umbrella.h"
+
+  export *
+  module * { export * }
+}
